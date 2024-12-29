@@ -53,6 +53,8 @@ export default function About_Hackthon() {
                     <li className=" about-hover-effect border-[1px] p-1 m-1 border-[white] text-[20px] px-4   hover:bg-[#554d4d] rounded-lg">Please ensure you bring your own laptops. The college authorities will provide Wi-Fi and support for PPT screening.</li>
                     <li className=" about-hover-effect border-[1px] p-1 m-1 border-[white] text-[20px]   hover:bg-[#554d4d] rounded-lg"><a>Any form of plagiarism, cheating, or disruptive behavior will lead to disqualification.</a></li>
                     <li className=" about-hover-effect border-[1px] p-1 m-1 border-[white] text-[20px]   hover:bg-[#554d4d] rounded-lg"><a>Exciting prizes will be awarded to the top teams.</a></li>
+                    <li className=" about-hover-effect border-[1px] p-1 m-1 border-[white] text-[20px]   hover:bg-[#554d4d] rounded-lg"><a>For any assistance, reach out to the organizing team.</a></li>
+                    <li className=" about-hover-effect border-[1px] p-1 m-1 border-[white] text-[20px]   hover:bg-[#554d4d] rounded-lg"><a>Keep an eye on our official website and FAQs to stay informed.</a></li>
                     
                 </ul>
             </div>

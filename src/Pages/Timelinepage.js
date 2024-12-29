@@ -62,9 +62,9 @@ export default function Timeline() {
     ]
 
     return (
-        <div className=" min-h-screen about-section">
+        <div className=" min-h-screen about-section  ">
 
-            <div className="timeline-section fade-in ">
+            <div className="timeline-section fade-in rounded-lg ">
 
                 <h2 className="mx-auto justify-center flex font-agu font-semibold highlight">Timeline</h2>
                 <div className="timeline flex justify-center items-center">

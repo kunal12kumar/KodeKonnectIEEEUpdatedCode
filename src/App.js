@@ -10,6 +10,7 @@ import preVideo from "./assets/pre.mp4"; // Add your video file here
 import vlsiImg from "./assets/v.jpg";
 import About_Hackthon from "./Pages/About";
 import Timeline from "./Pages/Timelinepage";
+import Faq from "./Pages/Faq";
 
 // importing about us page
 
@@ -202,6 +203,11 @@ function App() {
           ))}
         </div>
       </section> */}
+
+
+      {/* Here we are adding faq part */}
+
+      <Faq></Faq>
 
       <footer className="footer">
         <p>&copy; {new Date().getFullYear()} IEEE. All rights reserved.</p>
