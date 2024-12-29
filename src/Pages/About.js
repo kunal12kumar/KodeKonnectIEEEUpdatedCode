@@ -42,11 +42,18 @@ export default function About_Hackthon() {
 
             {/* Registration Instructions */}
 
-            <div className="dropdown dropdown-hover  w-[80%] h-[800px]">
-                <div tabIndex={0} role="button" className="btn m-12 font-agu text-4xl">Registration Instructions</div>
-                <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-full p-2 shadow">
-                    <li><a>Item 1</a></li>
-                    <li><a>Item 2</a></li>
+            <div className="dropdown dropdown-hover   w-[80%] h-[800px]">
+                <div tabIndex={0} role="button" className="btn m-12 font-agu about-hover-effect text-4xl bg-black text-white">Registration Instructions</div>
+                <ul tabIndex={0} className="dropdown-content menu  rounded-box z-[1] w-full text-white bg-black p-2 shadow text-left about-hover-effect ">
+                    <li className=" about-hover-effect border-[1px] p-1 m-1 border-[white] text-[20px]   hover:bg-[#554d4d] rounded-lg"><a>Teams should consist of 3 participants.</a></li>
+                    <li className=" about-hover-effect border-[1px] p-1 m-1 border-[white] text-[20px]   hover:bg-[#554d4d] rounded-lg"><a>Participants can form teams across different colleges (inter-college teams are allowed).</a></li>
+                    <li className=" about-hover-effect border-[1px] p-1 m-1 border-[white] text-[20px]   hover:bg-[#554d4d] rounded-lg"><a>The last date to register is 30 January, 2025 .</a></li>
+                    <li className=" about-hover-effect border-[1px] p-1 m-1 border-[white] text-[20px]   hover:bg-[#554d4d] rounded-lg"><a>A registration fee of ₹399 per team is required for IEEE members.</a></li>
+                    <li className=" about-hover-effect border-[1px] p-1 m-1 border-[white] text-[20px] px-4   hover:bg-[#554d4d] rounded-lg">The team leader is required to complete the registration form on behalf of all team members.</li>
+                    <li className=" about-hover-effect border-[1px] p-1 m-1 border-[white] text-[20px] px-4   hover:bg-[#554d4d] rounded-lg">Please ensure you bring your own laptops. The college authorities will provide Wi-Fi and support for PPT screening.</li>
+                    <li className=" about-hover-effect border-[1px] p-1 m-1 border-[white] text-[20px]   hover:bg-[#554d4d] rounded-lg"><a>Any form of plagiarism, cheating, or disruptive behavior will lead to disqualification.</a></li>
+                    <li className=" about-hover-effect border-[1px] p-1 m-1 border-[white] text-[20px]   hover:bg-[#554d4d] rounded-lg"><a>Exciting prizes will be awarded to the top teams.</a></li>
+                    
                 </ul>
             </div>
 
