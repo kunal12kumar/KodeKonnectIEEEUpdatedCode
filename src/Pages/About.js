@@ -42,7 +42,7 @@ export default function About_Hackthon() {
 
             {/* Registration Instructions */}
 
-            <div className="dropdown dropdown-hover   w-[80%] h-[800px]">
+            <div className="dropdown dropdown-hover   w-[80%] h-[700px]">
                 <div tabIndex={0} role="button" className="btn m-12 font-agu about-hover-effect text-4xl bg-black text-white">Registration Instructions</div>
                 <ul tabIndex={0} className="dropdown-content menu  rounded-box z-[1] w-full text-white bg-black p-2 shadow text-left about-hover-effect ">
                     <li className=" about-hover-effect border-[1px] p-1 m-1 border-[white] text-[20px]   hover:bg-[#554d4d] rounded-lg"><a>Teams should consist of 3 participants.</a></li>

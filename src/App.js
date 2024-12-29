@@ -9,6 +9,7 @@ import glowingImg from "./assets/k1.png";
 import preVideo from "./assets/pre.mp4"; // Add your video file here
 import vlsiImg from "./assets/v.jpg";
 import About_Hackthon from "./Pages/About";
+import Timeline from "./Pages/Timelinepage";
 
 // importing about us page
 
@@ -166,7 +167,7 @@ function App() {
       </section>
       
 
-      <section className="carousel-section fade-in">
+      {/* <section className="carousel-section fade-in">
         <h2>Events</h2>
         <div className="carousel">
           {events.map((event, index) => (
@@ -183,8 +184,11 @@ function App() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
+      {/* importing timeline  */}
+      <Timeline></Timeline>
+{/* 
       <section className="timeline-section fade-in">
         <h2>Timeline</h2>
         <div className="timeline">
@@ -197,7 +201,7 @@ function App() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       <footer className="footer">
         <p>&copy; {new Date().getFullYear()} IEEE. All rights reserved.</p>
