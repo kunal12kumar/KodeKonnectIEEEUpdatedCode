@@ -8,7 +8,8 @@ import ieeeLogo from "./assets/ieee_white.png";
 import glowingImg from "./assets/k1.png";
 import preVideo from "./assets/pre.mp4"; // Add your video file here
 import vlsiImg from "./assets/v.jpg";
-import About from "./Pages/About";
+import About_Hackthon from "./Pages/About";
+
 // importing about us page
 
 
@@ -113,7 +114,7 @@ function App() {
           <img src={glowingImg} alt="IEEE Logo" className="glowing-logo" />
         </div>
       </div>
-     
+
       <div className="update-summary">
         <marquee>Welcome to the IEEE website! Stay tuned for upcoming events and updates.</marquee>
       </div>
@@ -124,7 +125,7 @@ function App() {
         </div>
       </section> */}
 
-      <section className="about-section" id="about">
+      {/* <section className="about-section" id="about">
         <h2>
           About <span className="highlight">IEEE</span>
         </h2>
@@ -140,27 +141,30 @@ function App() {
             <span className="icon">&#9733;</span>
           </div>
         </div>
-        <About></About>
+        
+      </section> */}
+      <section className="about-section fade-in" id="about">
+        <div className="globe-container">
+          <img src={globe} alt="Globe" className="globe" />
+        </div>
+        <h2>
+          About <span className="highlight">IEEE</span>
+        </h2>
+        <div className="about-content">
+          <div className={`typewriter-effect ${inView ? "start" : ""}`} ref={typewriterRef}>
+            <p>We drive technology innovation and impact the world.</p>
+          </div>
+          <div className="about-hover-effect">
+            <p className="animated-text">Empowering innovation globally.</p>
+          </div>
+        </div>
+        
+        <div className={`typewriter-effect ${inView ? "start" : ""}`}>
+          <p>"Empowering innovation to transform the world through advanced technology solutions."</p>
+        </div>
+        <About_Hackthon></About_Hackthon>
       </section>
-<section className="about-section fade-in" id="about">
-  <div className="globe-container">
-    <img src={globe} alt="Globe" className="globe" />
-  </div>
-  <h2>
-    About <span className="highlight">IEEE</span>
-  </h2>
-  <div className="about-content">
-    <div className={`typewriter-effect ${inView ? "start" : ""}`} ref={typewriterRef}>
-      <p>We drive technology innovation and impact the world.</p>
-    </div>
-    <div className="about-hover-effect">
-      <p className="animated-text">Empowering innovation globally.</p>
-    </div>
-  </div>
-  <div className={`typewriter-effect ${inView ? "start" : ""}`}>
-    <p>"Empowering innovation to transform the world through advanced technology solutions."</p>
-  </div>
-</section>
+      
 
       <section className="carousel-section fade-in">
         <h2>Events</h2>
