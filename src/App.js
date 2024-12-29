@@ -6,6 +6,9 @@ import globe from "./assets/globe.png";
 import hackImg from "./assets/hack.jpg";
 import ieeeLogo from "./assets/ieee_white.png";
 import vlsiImg from "./assets/v.jpg";
+import About from "./Pages/About";
+// importing about us page
+
 
 const events = [
   {
@@ -85,22 +88,23 @@ function App() {
       </section>
 
       <section className="about-section" id="about">
-  <h2>
-    About <span className="highlight">IEEE</span>
-  </h2>
-  <p>
-    <span className="about-text">IEEE stands for the Institute of Electrical and Electronics Engineers.</span>
-    <span className="about-text"> It is a leading professional organization for the advancement of technology.</span>
-  </p>
-  <div className="moving-components">
-    <div className="moving-text">Innovating the future with technology</div>
-    <div className="moving-icons">
-      <span className="icon">&#9733;</span>
-      <span className="icon">&#9733;</span>
-      <span className="icon">&#9733;</span>
-    </div>
-  </div>
-</section>
+        <h2>
+          About <span className="highlight">IEEE</span>
+        </h2>
+        <p>
+          <span className="about-text">IEEE stands for the Institute of Electrical and Electronics Engineers.</span>
+          <span className="about-text"> It is a leading professional organization for the advancement of technology.</span>
+        </p>
+        <div className="moving-components">
+          <div className="moving-text">Innovating the future with technology</div>
+          <div className="moving-icons">
+            <span className="icon">&#9733;</span>
+            <span className="icon">&#9733;</span>
+            <span className="icon">&#9733;</span>
+          </div>
+        </div>
+        <About></About>
+      </section>
 
 
 

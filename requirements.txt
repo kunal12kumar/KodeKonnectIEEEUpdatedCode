@@ -1,0 +1,2 @@
+tailwind-css;
+daisy-ui
