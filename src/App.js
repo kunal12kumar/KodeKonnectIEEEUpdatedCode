@@ -11,6 +11,7 @@ import vlsiImg from "./assets/v.jpg";
 import About_Hackthon from "./Pages/About";
 import Timeline from "./Pages/Timelinepage";
 import Faq from "./Pages/Faq";
+import Footer from "./Pages/Footer";
 
 // importing about us page
 
@@ -209,8 +210,10 @@ function App() {
 
       <Faq></Faq>
 
-      <footer className="footer">
-        <p>&copy; {new Date().getFullYear()} IEEE. All rights reserved.</p>
+      <footer className="footer flex">
+        <Footer></Footer>
+        
+       
       </footer>
     </div>
   );

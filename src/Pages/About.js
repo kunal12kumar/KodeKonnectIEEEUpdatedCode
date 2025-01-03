@@ -31,11 +31,14 @@ export default function About_Hackthon() {
                     style={{ backgroundImage: `url(${earth})` }}>
                     <div className="p-2 mb-8 font-lato text-2xl border-[1px] border-[white] rounded-2xl">24 hour hackathon</div>
                     <div className="py-4  mx-2  font-poppins  border-[1px] border-[white] rounded-2xl text-[white]]"> A high-energy coding marathon where participants from diverse backgrounds come together to ideate, design, and develop solutions to real-world problems. Problem statements will be provided, challenging participants to unleash their technical prowess, creativity, and teamwork.</div>
+                    <button className="btn m-2 bg-[#2020c6] btn-wide">Register</button>
                 </div>
 
                 <div className=" flex rounded-2xl about-hover-effect flex-col justify-center bg-cover items-center w-[40%] h-[300px] " style={{ backgroundImage: `url(${earth})` }}>
                     <div className="p-2 mb-12 font-lato text-2xl border-[1px] border-[white] rounded-2xl">VLSI Workshop</div>
                     <div className="py-4  mx-2  font-poppins  border-[1px] border-[white] rounded-2xl"> Explore the intricate world of Very-Large-Scale Integration (VLSI) technology through a comprehensive two-day hands-on workshop tailored for electronics enthusiasts, providing practical insights into semiconductor design and fabrication.</div>
+
+                    <button className="btn m-2 bg-[#2020c6] btn-wide">Register</button>
                 </div>
 
             </div>
