@@ -24,7 +24,7 @@ export default function Footer() {
                 </div>
             </nav>
             <aside>
-                <p>Copyright © {new Date().getFullYear()} -   IEEERGIPT SB</p>
+                <p>Copyright © {new Date().getFullYear()} -   IEEE-RGIPT SB</p>
             </aside>
         </footer>
     )
