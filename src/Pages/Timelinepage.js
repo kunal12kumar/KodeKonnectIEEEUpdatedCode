@@ -64,12 +64,12 @@ export default function Timeline() {
     return (
         <div className=" min-h-screen about-section  ">
 
-            <div className="timeline-section fade-in rounded-lg ">
+            <div className="timeline-section   fade-in rounded-lg ">
 
                 <h2 className="mx-auto justify-center flex font-agu font-semibold highlight">Timeline</h2>
                 <div className="timeline flex justify-center items-center">
                     {['Best of luck','10:00 AM - 11:30 AM','12:00 PM','03:00 PM - 05:00 PM','06:00 PM - 07:45 PM','Best of Luck','10:00 AM - 12:00 PM','01:00 PM','03:00 PM - 04:45 PM','06:00 PM - 07:30 PM'].map((Time, index) => (
-                        <div key={index} className="timeline-item font-roboto">
+                        <div key={index} className="timeline-item    font-roboto">
                             <div className="timeline-content">
                                 
                                 <p>Event {index + 1}: {events[index]?.title || "Coming Soon"}</p>

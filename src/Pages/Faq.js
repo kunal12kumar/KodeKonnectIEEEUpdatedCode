@@ -39,7 +39,7 @@ export default function Faq() {
 
     return (
         <div className="min-h-screen about-content m-5">
-            <h1 className="mx-auto justify-center flex font-agu text-5xl mb-10 mt-5 text-[#e73b38f4] font-semibold highlight">Frequently Asked Questions</h1>
+            <h1 className="mx-auto justify-center flex font-agu text-5xl font-bold mb-10 mt-5 text-[#e73b38f4] highlight">Frequently Asked Questions</h1>
 
 
             {

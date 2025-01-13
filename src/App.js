@@ -12,6 +12,7 @@ import About_Hackthon from "./Pages/About";
 import Timeline from "./Pages/Timelinepage";
 import Faq from "./Pages/Faq";
 import Footer from "./Pages/Footer";
+import { Link } from "react-router-dom";
 
 
 // importing about us page
@@ -99,10 +100,14 @@ function App() {
           <div className="navbar-brand">
             <img src={ieeeLogo} alt="IEEE Logo" className="logo" />
           </div>
-          <ul className="navbar-nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact Us</a></li>
+          <ul className="navbar-nav h-[40px] flex gap-4">
+            {/* <Link to={'/aboutpage'}><li>About</li></Link>
+           <Link to={'/timeline'}> <li>Timeline</li></Link>
+           <Link to={'/registrationinstructions'}> <li>Instructions</li></Link> */}
+
+          <Link to={'/aboutpage'}> <button>About</button> </Link>
+          <Link to={'/timeline'}> <button>Timeline</button> </Link>
+          <Link to={'/registrationinstruction'}> <button>Instructions</button> </Link>
           </ul>
         </nav>
         {/* <div className="globe-container">
