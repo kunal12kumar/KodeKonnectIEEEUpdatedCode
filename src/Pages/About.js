@@ -53,7 +53,7 @@ export default function About_Hackthon() {
                     <embed
                         src={pdfFile}
                         type="application/pdf"
-                        className="w-full min-h-screen border rounded-lg shadow-lg"
+                        className="w-full sm:min-h-screen border rounded-lg shadow-lg"
                     />
 
                     {/* Download Button */}
