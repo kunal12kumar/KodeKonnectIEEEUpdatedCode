@@ -55,10 +55,10 @@ export default function About_Hackathon() {
                             className="sm:about-hover-effect about-hover-effect rounded-2xl flex flex-col justify-center items-center bg-cover sm:w-[40%] h-[300px]"
                         // style={{ backgroundImage: `url(${earth})` }}
                         >
-                            <div className="p-2 mb-8 sm:mt-2 font-lato text-2xl bg-[#ff6347] border-[1px] border-[white] rounded-2xl">
+                            <div className="p-2 mb-8 sm:mt-2 font-lato sm:text-2xl text-[20px] bg-[#ff6347] border-[1px] border-[white] rounded-2xl">
                                 {event.title}
                             </div>
-                            <div className="py-4 mx-2 font-poppins h-[240px] border-[1px] border-[white] rounded-2xl text-white">
+                            <div className="py-4 mx-2 font-poppins h-[240px] border-[1px] sm:text-[16px] text-14px border-[white] rounded-2xl text-white">
                                 {event.description}
                             </div>
                             <a href={event.link}>
