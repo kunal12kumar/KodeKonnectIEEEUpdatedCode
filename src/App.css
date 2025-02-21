@@ -239,7 +239,7 @@ body {
 }
 
 .timeline-item:nth-child(odd) {
-  left: 0;
+  left: 0%;
 }
 
 .timeline-item:nth-child(even) {
@@ -249,7 +249,7 @@ body {
 
 @media (min-width: 640px) {
   .timeline-item:nth-child(even) {
-    left: 50%;
+    left: 30%;
   }
   
 }

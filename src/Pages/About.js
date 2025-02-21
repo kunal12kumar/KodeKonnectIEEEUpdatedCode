@@ -2,7 +2,7 @@
 import React from "react";
 import RegistrationInstructions from "./RegistrationInstruction";
 import "../App.css"
-import pdfFile from "../assets/KodeKurrent_Brochure (1).pdf"
+import pdfFile from "../assets/Brochure_KodeKurrent_Final.pdf"
 
 
 import earth from "../assets/earth-1756274_1920.jpg"

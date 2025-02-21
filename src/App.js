@@ -75,7 +75,7 @@ function App() {
   const handleLogoClick = () => {
     const preloader = document.querySelector(".landing-page");
     preloader.classList.add("fade-out");
-    setTimeout(() => setShowMainApp(true), 1000);
+    setTimeout(() => setShowMainApp(true), 100);
   };
 
   if (!showMainApp) {
@@ -85,8 +85,9 @@ function App() {
           <source src={preVideo} type="video/mp4" />
         </video>
         {logoVisible && (
-          <div className="logo-container" onClick={handleLogoClick}>
+          <div className="logo-container flex flex-col" onClick={handleLogoClick}>
             <img src={ieeeLogo} alt="IEEE Logo" className="glowing-logo" />
+            <h1 className="sm:text-4xl text-center mx-auto text-xl  font-poppins  bold">Click Here To Go on website</h1>
           </div>
         )}
       </div>
