@@ -2,7 +2,7 @@
 import React from "react";
 import RegistrationInstructions from "./RegistrationInstruction";
 import "../App.css"
-import pdfFile from "../assets/Brochure_KodeKurrent_Final.pdf"
+import pdfFile from "../assets/KodeKurrent_Brochure (1).pdf"
 
 
 import earth from "../assets/earth-1756274_1920.jpg"
@@ -53,7 +53,7 @@ export default function About_Hackthon() {
                     <embed
                         src={pdfFile}
                         type="application/pdf"
-                        className="w-full max-w-4xl h-96 border rounded-lg shadow-lg"
+                        className="w-full min-h-screen border rounded-lg shadow-lg"
                     />
 
                     {/* Download Button */}
