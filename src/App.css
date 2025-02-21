@@ -283,6 +283,15 @@ body {
   font-style: italic;
 }
 
+.about-section .highlightmobile {
+  color: #ff6347; /* Tomato color for highlighting IEEE */
+  font-weight: semibold;
+  font-style: italic;
+  font-size: 80px;
+}
+
+
+
 .about-section p {
   font-size: 1.2rem;
   line-height: 2.5;
@@ -519,6 +528,11 @@ body {
 }
 
 .about-hover-effect:hover {
+  animation: glow-hover 0.5s infinite alternate;
+}
+
+
+.about-hover-effect {
   animation: glow-hover 0.5s infinite alternate;
 }
 

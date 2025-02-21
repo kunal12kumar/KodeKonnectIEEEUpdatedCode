@@ -160,9 +160,9 @@ function App() {
         <h2>
           About <span className="highlight">IEEE</span>
         </h2>
-        <div className="about-content">
+        <div className="about-content ">
           <div className={`typewriter-effect ${inView ? "start" : ""}`} ref={typewriterRef}>
-            <p>We drive technology innovation and impact the world.</p>
+            <p >We drive technology innovation and impact the world.</p>
           </div>
           <div className="about-hover-effect">
             <p className="animated-text">Empowering innovation globally.</p>

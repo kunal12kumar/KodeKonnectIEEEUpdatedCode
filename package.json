@@ -6,6 +6,8 @@
     "@react-three/fiber": "^8.17.10",
     "cra-template": "1.2.0",
     "daisyui": "^4.12.23",
+    "framer-motion": "^12.4.7",
+    "motion": "^12.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.1",
