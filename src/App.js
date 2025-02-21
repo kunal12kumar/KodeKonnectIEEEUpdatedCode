@@ -87,7 +87,7 @@ function App() {
         {logoVisible && (
           <div className="logo-container flex flex-col" onClick={handleLogoClick}>
             <img src={ieeeLogo} alt="IEEE Logo" className="glowing-logo" />
-            <h1 className="sm:text-4xl text-center mx-auto text-xl  font-poppins  bold">Click Here To Go on website</h1>
+            <h1 className="sm:text-4xl text-center mx-auto text-xl  font-poppins  bold">Click To Enter</h1>
           </div>
         )}
       </div>
