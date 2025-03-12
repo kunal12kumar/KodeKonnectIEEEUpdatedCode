@@ -21,7 +21,7 @@ export default function ProblemStatements() {
             websiteurl: "https://rabbitt.ai/",
             linedinurl: "https://www.linkedin.com/company/rabbitt-ai/",
             Name: "Rabbit.AI",
-            Register:"https://docs.google.com/document/d/1k6JgqKwlx-orqC1O53dCUVJcDDPwy0WLMREKBe34B-M/edit?tab=t.0"
+            Register: "https://docs.google.com/document/d/1k6JgqKwlx-orqC1O53dCUVJcDDPwy0WLMREKBe34B-M/edit?tab=t.0"
         },
         {
             img: roostoo,
@@ -33,7 +33,7 @@ export default function ProblemStatements() {
             webkitURL: "https://roostoo.com/",
             linedinurl: "https://www.linkedin.com/company/roostoo/",
             Name: "Roostoo",
-            Register:"https://docs.google.com/document/d/1KOpRer1G15WbrlaBLzZkADvyFtvCFHTG58_M3D4TICw/edit?tab=t.0"
+            Register: "https://docs.google.com/document/d/1KOpRer1G15WbrlaBLzZkADvyFtvCFHTG58_M3D4TICw/edit?tab=t.0"
         },
         {
             img: prodigal,
@@ -45,7 +45,7 @@ export default function ProblemStatements() {
             websiteurl: "https://prodigal.ai/",
             linedinurl: "https://www.linkedin.com/company/prodigal-ai/",
             Name: "Prodigal.AI",
-            Register:"https://docs.google.com/document/d/1MdqYbet53bwX3mnpKuQAnJOW5uXBFn77jvWlwViGVyI/edit?tab=t.0"
+            Register: "https://docs.google.com/document/d/1MdqYbet53bwX3mnpKuQAnJOW5uXBFn77jvWlwViGVyI/edit?tab=t.0"
         }
     ];
 
@@ -68,7 +68,17 @@ export default function ProblemStatements() {
                 transition={{ duration: 1.5 }}
             >
                 <div className="timeline-section fade-in rounded-lg">
-                    <h1 className="highlight text-center text-6xl my-6">Problem Statement</h1>
+                    <motion.div
+                        tabIndex={0}
+                        role="button"
+                        className=""
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
+                        transition={{ duration: 0.8 }}
+                    >
+                        <h1 className="highlight text-center text-6xl mb-20">Problem Statement</h1>
+                    </motion.div>
+
                     <div className="mx-auto  sm:w-[80%] min-h-screen">
 
 

@@ -19,7 +19,7 @@ export default function Footer() {
                     <a href=""><img src={facebook} className=""></img></a>
                     <a href=""><img src={instagram} className=""></img></a>
                     <a href=""><img src={youtube} className=""></img></a>
-                    <a href=""><img src={linkedin} className=""></img></a>
+                    <a href="https://www.linkedin.com/company/ieeergipt/posts/?feedView=all"><img src={linkedin} className=""></img></a>
                     <a href=""><img src={twitter} className=""></img></a>
                 </div>
             </nav>
