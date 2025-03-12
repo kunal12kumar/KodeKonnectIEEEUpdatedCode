@@ -6,7 +6,7 @@ import globe from "./assets/globe.png";
 import hackImg from "./assets/hack.jpg";
 import ieeeLogo from "./assets/ieee_white.png";
 import glowingImg from "./assets/k1.png";
-import preVideo from "./assets/pre.mp4"; // Add your video file here
+import preVideo from "./assets/shortvideo.mp4"; // Add your video file here
 import vlsiImg from "./assets/v.jpg";
 import About_Hackthon from "./Pages/About";
 import Timeline from "./Pages/Timelinepage";
