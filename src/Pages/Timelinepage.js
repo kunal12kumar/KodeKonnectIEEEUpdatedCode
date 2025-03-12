@@ -6,16 +6,15 @@ export default function Timeline() {
     const isInView = useInView(ref, { triggerOnce: false, margin: "-100px" });
 
     const events = [
-        { title: "Day 1", time: "Best of luck" },
-        { title: "Inaugural Ceremony", time: "10:00 AM - 11:30 AM" },
-        { title: "Hackathon Starts", time: "12:00 PM" },
-        { title: "VLSI Workshop", time: "03:00 PM - 05:00 PM" },
-        { title: "First Round of Evaluation", time: "06:00 PM - 07:45 PM" },
-        { title: "Day 2", time: "Best of Luck" },
-        { title: "VLSI Workshop", time: "10:00 AM - 12:00 PM" },
-        { title: "Hackathon Ends", time: "01:00 PM" },
-        { title: "Final Round of Evaluation", time: "03:00 PM - 04:45 PM" },
-        { title: "Valedictory Ceremony", time: "06:00 PM - 07:30 PM" }
+        { title: "12 March", time: "Release of Problem Statement" },
+        { title: "15 March", time: "Registration Deadline" },
+        { title: "16 March", time: "Online Round" },
+        { title: "17 March", time: "Phase 1 Result Declared" },
+        { title: "17 March", time: "Phase 2 Registration Start" },
+        { title: "19 March", time: "Phase 2 Registration Deadline" },
+        { title: "22 March", time: "OFFLINE Round RGIPT CAMPUS" },
+        { title: "23 March", time: "Hackathon Result Declared" },
+        
     ];
 
     return (
@@ -37,7 +36,7 @@ export default function Timeline() {
                             whileHover={{ scale: 1.05, boxShadow: "0px 0px 12px rgba(255, 255, 255, 0.4)" }}
                         >
                             <h3 className="text-lg font-semibold">{event.title}</h3>
-                            <p className="text-sm">{event.time}</p>
+                            <p className="text-sm text-black">{event.time}</p>
                         </motion.div>
                     ))}
                 </div>

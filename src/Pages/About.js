@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import RegistrationInstructions from "./RegistrationInstruction";
 import { motion, useInView } from "framer-motion";
 import "../App.css";
-import pdfFile from "../assets/KodeKurrent_Brochure (1).pdf";
+import pdfFile from "../assets/kode kurrent participants brochure.pdf";
 import earth from "../assets/earth-1756274_1920.jpg";
 import { fadeIn } from "./varients";
 
