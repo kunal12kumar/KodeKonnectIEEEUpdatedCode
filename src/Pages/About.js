@@ -21,7 +21,7 @@ export default function About_Hackathon() {
                     transition={{ duration: 1.2, ease: "easeOut" }} // Optimized duration
                 >
                     <h2>
-                        About <span className="text-[#ff6347] italic sm:font-bold text-5xl font-lato">HACKATHON</span>
+                        About <span className="text-[#ff6347] italic sm:font-bold text-5xl font-lato">KodeKurrent</span>
                     </h2>
                     <h1 className="about-hover-effect p-3 rounded-lg border-[2px] border-[#cbb9b9] font-poppins text-2xl">
                         Welcome to IEEE Kode Kurrent - Season 1, hosted by IEEE RGIPT at the Rajiv Gandhi Institute of Petroleum Technology! This is where innovation meets adrenaline. Engage in a stimulating environment of coding, collaboration, and ingenuity as you address challenges within advanced technological domains.
@@ -37,7 +37,7 @@ export default function About_Hackathon() {
                     Events
                 </motion.div>
 
-                <div className="flex flex-col sm:flex-row mt-16 justify-center gap-12 sm:gap-24">
+                <div className="flex flex-col sm:flex-row mt-16 justify-center gap-28 sm:gap-24">
                     {[{
                         title: "24-hour Hackathon",
                         description: " A high-energy coding marathon where participants from diverse backgrounds come together to ideate, design, and develop solutions to real world problems. Problem statements will be provided, challenging participants to unleash their technical prowess, creativity, and teamwork.",
@@ -80,7 +80,7 @@ export default function About_Hackathon() {
                     <embed
                         src={pdfFile}
                         type="application/pdf"
-                        className="w-[68%] sm:min-h-screen border rounded-lg shadow-lg"
+                        className="w-[68%] h-[350px] sm:min-h-screen border rounded-lg shadow-lg"
                     />
                     <a
                         href={pdfFile}
