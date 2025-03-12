@@ -5,18 +5,29 @@ export default function RegistrationInstructions() {
     const ref = useRef(null);
     const isInView = useInView(ref, { triggerOnce: false, margin: "-100px" });
 
-    const instructions = [
-        "Teams should consist of 3 participants.",
-        "Participants can form teams across different colleges (inter-college teams are allowed).",
-        "The last date to register is 30 January, 2025.",
-        "A registration fee of ₹399 per team is required for IEEE members.",
-        "The team leader is required to complete the registration form on behalf of all team members.",
-        "Please ensure you bring your own laptops. The college authorities will provide Wi-Fi and support for PPT screening.",
-        "Any form of plagiarism, cheating, or disruptive behavior will lead to disqualification.",
-        "Exciting prizes will be awarded to the top teams.",
-        "For any assistance, reach out to the organizing team.",
-        "Keep an eye on our official website and FAQs to stay informed."
-    ];
+   const instructions=[
+        {
+          "title": "Phase 1: Registration",
+          "description": "Form a team of 3-4 members (all team members must belong to the same college). Select a problem statement from the provided options. Ensure all information submitted during registration is accurate."
+        },
+        {
+          "title": "Phase 1: Online Assessment (OA)",
+          "description": "Teams must participate in an Online Assessment to evaluate their understanding of the selected problem statement. The OA link will be sent via email to the registered teams. The OA slot will remain open for 24 hours to accommodate any technical issues."
+        },
+        {
+          "title": "Phase 1: Selection Announcement",
+          "description": "Shortlisted teams will be informed via email. These teams can continue developing real-world solutions for their selected problem statements."
+        },
+        {
+          "title": "Phase 2: Registration",
+          "description": "Shortlisted teams for Phase 2 must re-register. The registration fee is Rs. 600 per team for RGIPT students and Rs. 1200 per team for Non-RGIPT students (i.e., Rs. 600 for registration + Rs. 600 for accommodation and food). Deadline for the same is 19th March 2025."
+        },
+        {
+          "title": "Phase 2: Offline Hackathon Finals",
+          "description": "Teams will refine their solutions with guidance from industry and academic mentors."
+        }
+      ]
+      
 
     return (
         <motion.section 
@@ -53,7 +64,8 @@ export default function RegistrationInstructions() {
                             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                         >
-                            <a>{text}</a>
+                            <a>{text.title}</a>
+                            <p className="text-wrap bg-[#29303f] ">{text.description}</p>
                         </motion.li>
                     ))}
                 </motion.ul>
