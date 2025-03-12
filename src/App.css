@@ -938,7 +938,45 @@ body {
 } */
 
 
+.typewriter-effect {
+  font-family: "Courier New", Courier, monospace;
+  font-size: clamp(14px, 4vw, 24px); /* Adjust text size based on screen width */
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #fff; /* Simulating a cursor */
+  display: inline-block;
+  max-width: 100%;
+}
 
+.start {
+  animation: typing 2.5s steps(40, end) forwards, blink 0.8s infinite;
+}
+
+/* Typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Cursor blinking effect */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@media (max-width: 600px) {
+  .typewriter-effect {
+    font-size: 12px; /* Slightly larger for readability */
+    white-space: normal; /* Allow text wrapping */
+    border-right: none;
+    text-align: center;
+  }
+}
 
 
 
