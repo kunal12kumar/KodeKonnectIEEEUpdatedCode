@@ -107,9 +107,9 @@ function App() {
            <Link to={'/timeline'}> <li>Timeline</li></Link>
            <Link to={'/registrationinstructions'}> <li>Instructions</li></Link> */}
 
-          <Link to={'/aboutpage'}> <button>About</button> </Link>
-          <Link to={'/timeline'}> <button>Timeline</button> </Link>
-          <Link to={'/registrationinstruction'}> <button>Instructions</button> </Link>
+            <Link to={'/aboutpage'}> <button>About</button> </Link>
+            <Link to={'/timeline'}> <button>Timeline</button> </Link>
+            <Link to={'/registrationinstruction'}> <button>Instructions</button> </Link>
           </ul>
         </nav>
         {/* <div className="globe-container">
@@ -122,7 +122,7 @@ function App() {
           <source src={landingVideo} type="video/mp4" />
         </video>
         <div className="logo-overlay">
-          <img src={glowingImg} alt="IEEE Logo" className="glowing-logo" />
+          <img src={glowingImg} alt="IEEE Logo" className="glowing-logo w-[700px]" />
         </div>
       </div>
 
@@ -159,7 +159,16 @@ function App() {
           <img src={globe} alt="Globe" className="globe" />
         </div>
         <h2>
-          About <span className="highlight">IEEE</span>
+          About <span className="highlight">IEEE RGIPT SB</span>
+          <p className="about-content text-wrap">
+            Founded in 2021, IEEE RGIPT Student Branch at Rajiv Gandhi Institute of Petroleum Technology is a professional student run Engineering Organization. We devote our time and energy towards bringing hands-on practical experiences to engineering students at RGIPT, as well as create opportunities for students to interact with industry professionals.
+
+            IEEE RGIPT Student Branch is a young body of enthusiastic workforce which strives to learn and contribute towards technological innovations.
+
+            IEEE RGIPT Student Branch is awarded as the Best Emerging Student Branch Award and Most Active Student Branch Award by
+            IEEE Uttar Pradesh Section for the Year 2025.
+
+          </p>
         </h2>
         <div className="about-content ">
           <div className={`typewriter-effect ${inView ? "start" : ""}`} ref={typewriterRef}>
@@ -169,13 +178,13 @@ function App() {
             <p className="animated-text">Empowering innovation globally.</p>
           </div>
         </div>
-        
+
         <div className={`typewriter-effect ${inView ? "start" : ""}`}>
           <p>"Empowering innovation to transform the world through advanced technology solutions."</p>
         </div>
         <About_Hackthon></About_Hackthon>
       </section>
-      
+
 
       {/* <section className="carousel-section fade-in">
         <h2>Events</h2>
@@ -196,12 +205,12 @@ function App() {
         </div>
       </section> */}
 
-      
+
 
       {/* importing timeline  */}
       <Timeline></Timeline>
 
-{/* 
+      {/* 
       <section className="timeline-section fade-in">
         <h2>Timeline</h2>
         <div className="timeline">
@@ -226,8 +235,8 @@ function App() {
 
       <footer className="footer flex">
         <Footer></Footer>
-        
-       
+
+
       </footer>
     </div>
   );
