@@ -20,7 +20,8 @@ export default function ProblemStatements() {
             imagetitle: "Rabbitt.Ai",
             websiteurl: "https://rabbitt.ai/",
             linedinurl: "https://www.linkedin.com/company/rabbitt-ai/",
-            Name: "Rabbit.AI"
+            Name: "Rabbit.AI",
+            Register:"https://docs.google.com/document/d/1k6JgqKwlx-orqC1O53dCUVJcDDPwy0WLMREKBe34B-M/edit?tab=t.0"
         },
         {
             img: roostoo,
@@ -31,7 +32,8 @@ export default function ProblemStatements() {
             imagetitle: "Roostoo",
             webkitURL: "https://roostoo.com/",
             linedinurl: "https://www.linkedin.com/company/roostoo/",
-            Name: "Roostoo"
+            Name: "Roostoo",
+            Register:"https://docs.google.com/document/d/1KOpRer1G15WbrlaBLzZkADvyFtvCFHTG58_M3D4TICw/edit?tab=t.0"
         },
         {
             img: prodigal,
@@ -42,7 +44,8 @@ export default function ProblemStatements() {
             imagetitle: "Prodigal.Ai",
             websiteurl: "https://prodigal.ai/",
             linedinurl: "https://www.linkedin.com/company/prodigal-ai/",
-            Name: "Prodigal.AI"
+            Name: "Prodigal.AI",
+            Register:"https://docs.google.com/document/d/1MdqYbet53bwX3mnpKuQAnJOW5uXBFn77jvWlwViGVyI/edit?tab=t.0"
         }
     ];
 
@@ -92,7 +95,7 @@ export default function ProblemStatements() {
                                         <a className="ml-2 underline text-[yellow] hover:text-[blue]" href={item.linedinurl}>linkedin</a>
                                         <h1>Intern Opportunities Elligibility:{item.internEligibility}</h1>
                                         <h1>Intern Type: {item.internEligibility}</h1>
-                                        <a className="underline text-[yellow] hover:text-[blue]" href=""> Problem Statement Link</a>
+                                        <a className="underline text-[yellow] hover:text-[blue]" href={item.Register}> Problem Statement Link</a>
                                     </div>
                                 </div>
                             </motion.div>
