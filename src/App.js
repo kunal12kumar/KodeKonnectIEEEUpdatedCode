@@ -13,6 +13,7 @@ import Timeline from "./Pages/Timelinepage";
 import Faq from "./Pages/Faq";
 import Footer from "./Pages/Footer";
 import { Link } from "react-router-dom";
+import ProblemStatements from "./Pages/ProblemStatements";
 
 
 // importing about us page
@@ -195,8 +196,11 @@ function App() {
         </div>
       </section> */}
 
+      
+
       {/* importing timeline  */}
       <Timeline></Timeline>
+
 {/* 
       <section className="timeline-section fade-in">
         <h2>Timeline</h2>
@@ -211,6 +215,9 @@ function App() {
           ))}
         </div>
       </section> */}
+
+      {/* importing problem Statements */}
+      <ProblemStatements></ProblemStatements>
 
 
       {/* Here we are adding faq part */}

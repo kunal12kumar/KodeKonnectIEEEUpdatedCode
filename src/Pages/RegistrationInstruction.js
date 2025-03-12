@@ -57,7 +57,7 @@ export default function RegistrationInstructions() {
                     transition={{ duration: 1.2, delay: 0.2 }}
                 >
                     {instructions.map((text, index) => (
-                        <motion.li 
+                        <motion.li
                             key={index} 
                             className="about-hover-effect border-[1px] sm:p-1 m-1 border-[white] sm:text-[20px] hover:bg-[#554d4d] rounded-lg"
                             initial={{ opacity: 0, x: -50 }}

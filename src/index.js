@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About_Hackthon from './Pages/About';
 import RegistrationInstructions from './Pages/RegistrationInstruction';
 import Timeline from './Pages/Timelinepage';
+import ProblemStatements from './Pages/ProblemStatements';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -25,6 +26,10 @@ let allrouter=createBrowserRouter([
   {
     path:'/timeline',
     element:<Timeline></Timeline>
+  },
+  {
+    path:'/problemstatements',
+    element:<ProblemStatements></ProblemStatements>
   }
 ])
 root.render(
