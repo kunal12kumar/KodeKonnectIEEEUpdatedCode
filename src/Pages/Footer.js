@@ -17,7 +17,7 @@ export default function Footer() {
             <nav>
                 <div className="grid grid-flow-col gap-4">
                     <a href=""><img src={facebook} className=""></img></a>
-                    <a href=""><img src={instagram} className=""></img></a>
+                    <a href="https://www.instagram.com/ieee_rgipt?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"><img src={instagram} className=""></img></a>
                     <a href=""><img src={youtube} className=""></img></a>
                     <a href="https://www.linkedin.com/company/ieeergipt/posts/?feedView=all"><img src={linkedin} className=""></img></a>
                     <a href=""><img src={twitter} className=""></img></a>

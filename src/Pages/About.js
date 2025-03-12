@@ -62,7 +62,7 @@ export default function About_Hackathon() {
                                 {event.description}
                             </div>
                             <a href={event.link}>
-                                <button className="btn m-2 sm:text-2xl bg-[#2020c6] btn-wide">
+                                <button className="btn text-white m-2 sm:text-2xl bg-[#2020c6] btn-wide">
                                     Register
                                 </button>
                             </a>
