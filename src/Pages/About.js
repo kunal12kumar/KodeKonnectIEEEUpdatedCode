@@ -37,7 +37,7 @@ export default function About_Hackathon() {
                     Events
                 </motion.div>
 
-                <div className="flex sm:flex-row flex-col  mt-20 justify-center gap-24">
+                <div className="flex flex-col sm:flex-row mt-16 justify-center gap-12 sm:gap-24">
                     {[{
                         title: "24-hour Hackathon",
                         description: " A high-energy coding marathon where participants from diverse backgrounds come together to ideate, design, and develop solutions to real world problems. Problem statements will be provided, challenging participants to unleash their technical prowess, creativity, and teamwork.",
