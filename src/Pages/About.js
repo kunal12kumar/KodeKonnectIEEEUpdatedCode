@@ -41,11 +41,11 @@ export default function About_Hackathon() {
                     {[{
                         title: "24-hour Hackathon",
                         description: " A high-energy coding marathon where participants from diverse backgrounds come together to ideate, design, and develop solutions to real world problems. Problem statements will be provided, challenging participants to unleash their technical prowess, creativity, and teamwork.",
-                        link: "https://forms.gle/PPGy4xurBZguvc129"
+                        link: "https://docs.google.com/forms/d/e/1FAIpQLSeMf7v6GkEAtDtayWPoXot2E39H5s-dv82ykWG8zUQCqmKyoA/viewform"
                     }, {
                         title: "VLSI Workshop",
                         description: "Explore the intricate world of Very-Large-Scale Integration (VLSI) technology through a comprehensive two-day hands-on workshop tailored for electronics enthusiasts, providing practical insights into semiconductor design and fabrication.",
-                        link: "https://forms.gle/j77o4ycTZCMpCXhN9"
+                        link: "https://docs.google.com/forms/d/e/1FAIpQLSeMf7v6GkEAtDtayWPoXot2E39H5s-dv82ykWG8zUQCqmKyoA/viewform"
                     }].map((event, index) => (
                         <motion.div
                             key={index}
