@@ -234,7 +234,6 @@ function App() {
       <Faq></Faq>
 
       <footer className="footer flex">
-        <Footer></Footer>
 
 
       </footer>

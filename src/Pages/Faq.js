@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Footer from "./Footer";
 
 export default function Faq() {
     // FAQ questions and answers
@@ -96,6 +97,7 @@ export default function Faq() {
                     </motion.div>
                 </motion.div>
             ))}
+            <Footer></Footer>
         </motion.div>
     );
 }
