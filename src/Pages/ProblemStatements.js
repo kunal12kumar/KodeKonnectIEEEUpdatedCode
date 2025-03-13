@@ -44,7 +44,7 @@ export default function ProblemStatements() {
             imagetitle: "Prodigal Ai",
             websiteurl: "https://prodigal.ai/",
             linedinurl: "https://www.linkedin.com/company/prodigal-ai/",
-            Name: "Prodigal.AI",
+            Name: "Prodigal AI",
             Register: "https://docs.google.com/document/d/1MdqYbet53bwX3mnpKuQAnJOW5uXBFn77jvWlwViGVyI/edit?tab=t.0"
         }
     ];
