@@ -104,7 +104,7 @@ export default function ProblemStatements() {
                                         <a className="mr-2 underline text-[yellow]  hover:text-[blue]" href={item.websiteurl}>website</a>
                                         <a className="ml-2 underline text-[yellow] hover:text-[blue]" href={item.linedinurl}>linkedin</a>
                                         <h1>Intern Opportunities Elligibility:{item.internEligibility}</h1>
-                                        <h1>Intern Type: {item.internEligibility}</h1>
+                                        <h1>Intern Type: {item.internType}</h1>
                                         <a className="underline text-[yellow] hover:text-[blue]" href={item.Register}> Problem Statement Link</a>
                                     </div>
                                 </div>
