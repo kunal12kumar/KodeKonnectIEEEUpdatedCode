@@ -10,11 +10,12 @@ export default function Footer() {
 
     return (
 
-        <footer className="footer footer-center bg-base-200 mt-10 text-base-content rounded-lg text-2xl  border-[white] border-[1px] p-10">
+        <footer className="footer footer-center bg-base-200 mt-40 text-base-content rounded-lg text-2xl  border-[white] border-[1px] p-10">
             <nav className= " justify-center items-center flex flex-col sm:flex-row gap-4">
                 <Link to={'/aboutpage'} className="text-[yellow] hover:text-[blue]">About</Link>
                 <Link to={'/timeline'} className="text-[yellow] hover:text-[blue]">Timeline</Link>
                 <Link to={'/registrationinstruction'} className="text-[yellow] hover:text-[blue]">Instructions</Link>
+                <Link to={'/problemstatements'} className="text-[yellow] hover:text-[blue]">Problem Statement</Link>
                 
             </nav>
             <nav>

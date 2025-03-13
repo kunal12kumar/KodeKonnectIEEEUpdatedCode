@@ -695,7 +695,7 @@ body {
 }
 
 /* Typing Effect */
-.typing-effect {
+/* .typing-effect {
   font-size: 1.2rem;
   white-space: pre-wrap;
   animation: fade-in 1.5s ease-in-out;
@@ -708,7 +708,7 @@ body {
   to {
     opacity: 1;
   }
-}
+} */
 
 
 /* Landing Page */
@@ -867,23 +867,41 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   color: #fff;
-  white-space: nowrap;
   overflow: hidden;
   border-right: 4px solid #00d4ff;
-  animation: typewriter 4s steps(40) 1s 1 normal both;
-  max-width: 100%; /* Prevent overflowing */
-  width: 100%;
-  text-align: center; /* Ensure it's centered */
+  animation: typewriter 4s steps(40) 1s 1 normal both, blink 0.7s steps(2) infinite;
+  display: inline-block;  
+  max-width: 100%; /* Ensures it doesn't overflow */
+  word-break: break-word; /* Allows long words to break properly */
+  white-space: normal; /* Allows text to wrap */
+  text-align: center; /* Align text properly */
 }
 
+/* Typewriter animation */
 @keyframes typewriter {
   from {
     width: 0;
   }
   to {
-    width: 100%;
+    width: 100%; /* Adjusts dynamically based on content */
   }
 }
+
+/* Blinking cursor effect */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+/* Blinking cursor effect */
+@keyframes blink {
+  80% {
+    border-color: transparent;
+  }
+}
+
 /* Fade-in animation for components */
 .fade-in {
   opacity: 0;
@@ -937,13 +955,12 @@ body {
   }
 } */
 
-
+/* 
 .typewriter-effect {
   font-family: "Courier New", Courier, monospace;
-  font-size: clamp(14px, 4vw, 24px); /* Adjust text size based on screen width */
-  white-space: nowrap;
+  font-size: clamp(14px, 4vw, 24px); 
   overflow: hidden;
-  border-right: 3px solid #fff; /* Simulating a cursor */
+  border-right: 3px solid #fff; 
   display: inline-block;
   max-width: 100%;
 }
@@ -952,34 +969,58 @@ body {
   animation: typing 2.5s steps(40, end) forwards, blink 0.8s infinite;
 }
 
-/* Typing effect */
+Typing effect
 @keyframes typing {
   from {
     width: 0;
   }
   to {
-    width: 100%;
+    width: 80%;
   }
 }
 
 /* Cursor blinking effect */
-@keyframes blink {
+/* @keyframes blink {
   50% {
     border-color: transparent;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 200px) {
   .typewriter-effect {
-    font-size: 12px; /* Slightly larger for readability */
-    white-space: normal; /* Allow text wrapping */
+    font-size: 12px; 
+    white-space: normal; 
     border-right: none;
     text-align: center;
   }
+} */
+
+
+/* .typewriter-effect {
+  display: inline-block;
+  max-width: 100%;
+  white-space: normal; 
+  word-wrap: break-word; /
+  overflow-wrap: break-word; 
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+ */
+/* .about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
-
-
+.animated-text {
+  text-align: center;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+  */
 
 
 
