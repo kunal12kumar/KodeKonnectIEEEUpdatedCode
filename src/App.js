@@ -79,21 +79,21 @@ function App() {
     setTimeout(() => setShowMainApp(true), 100);
   };
 
-  if (!showMainApp) {
-    return (
-      <div className="landing-page">
-        <video className="landing-video" autoPlay muted loop playsInline>
-          <source src={preVideo} type="video/mp4" />
-        </video>
-        {logoVisible && (
-          <div className="logo-container flex flex-col" onClick={handleLogoClick}>
-            <img src={ieeeLogo} alt="IEEE Logo" className="glowing-logo" />
-            <h1 className="sm:text-4xl text-center mx-auto text-xl  font-poppins  bold">Click To Enter</h1>
-          </div>
-        )}
-      </div>
-    );
-  }
+  // if (!showMainApp) {
+  //   return (
+  //     <div className="landing-page">
+  //       <video className="landing-video" autoPlay muted loop playsInline>
+  //         <source src={preVideo} type="video/mp4" />
+  //       </video>
+  //       {logoVisible && (
+  //         <div className="logo-container flex flex-col" onClick={handleLogoClick}>
+  //           <img src={ieeeLogo} alt="IEEE Logo" className="glowing-logo" />
+  //           <h1 className="sm:text-4xl text-center mx-auto text-xl  font-poppins  bold">Click To Enter</h1>
+  //         </div>
+  //       )}
+  //     </div>
+  //   );
+  // }
 
   return (
     <div className="App aurora-background">

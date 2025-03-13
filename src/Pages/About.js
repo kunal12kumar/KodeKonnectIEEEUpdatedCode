@@ -80,7 +80,7 @@ export default function About_Hackathon() {
                     <embed
                         src={pdfFile}
                         type="application/pdf"
-                        className="w-[68%] h-[350px] sm:min-h-screen border rounded-lg shadow-lg"
+                        className="sm:w-[68%] w-full h-[350px] sm:min-h-screen border rounded-lg shadow-lg"
                     />
                     <a
                         href={pdfFile}

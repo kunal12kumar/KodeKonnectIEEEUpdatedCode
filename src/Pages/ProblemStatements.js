@@ -20,7 +20,7 @@ export default function ProblemStatements() {
             imagetitle: "Rabbitt.Ai",
             websiteurl: "https://rabbitt.ai/",
             linedinurl: "https://www.linkedin.com/company/rabbitt-ai/",
-            Name: "Rabbit.AI",
+            Name: "Rabbitt.AI",
             Register: "https://docs.google.com/document/d/1k6JgqKwlx-orqC1O53dCUVJcDDPwy0WLMREKBe34B-M/edit?tab=t.0"
         },
         {
@@ -41,7 +41,7 @@ export default function ProblemStatements() {
             title: "AI Voice Cloning Model Development Challenge",
             internType: "Summer 3 Months Remote Stipend based Internship.",
             internEligibility: "Teams Solving Problem Statement",
-            imagetitle: "Prodigal.Ai",
+            imagetitle: "Prodigal Ai",
             websiteurl: "https://prodigal.ai/",
             linedinurl: "https://www.linkedin.com/company/prodigal-ai/",
             Name: "Prodigal.AI",
