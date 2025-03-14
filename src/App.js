@@ -185,6 +185,9 @@ function App() {
         <About_Hackthon></About_Hackthon>
       </section>
 
+      {/* importing problem Statements */}
+      <ProblemStatements></ProblemStatements>
+
 
       {/* <section className="carousel-section fade-in">
         <h2>Events</h2>
@@ -225,8 +228,7 @@ function App() {
         </div>
       </section> */}
 
-      {/* importing problem Statements */}
-      <ProblemStatements></ProblemStatements>
+      
 
 
       {/* Here we are adding faq part */}
