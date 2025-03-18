@@ -128,7 +128,24 @@ function App() {
 
       <div className="update-summary">
         <marquee>Welcome to the IEEE website! Stay tuned for upcoming events and updates.</marquee>
+       
       </div>
+
+
+      <div className="about-content ">
+          <div className={`typewriter-effect ${inView ? "start" : ""}   text-[red]`} ref={typewriterRef} >
+            <p  >Phase 1 Result Declared .</p>
+          </div>
+          <div className="about-hover-effect">
+            <p className="animated-text text-xl pt-4">To check Click On the Below Link  On the basis of Your ProblemStatements</p>
+
+            <div className="flex flex-row gap-20 justify-center items-center text-2xl my-5 pb-10">
+              <a className="text-[yellow] hover:text-[orange] hover:scale-125" href="https://docs.google.com/spreadsheets/d/1" target="_blank" rel="noreferrer"> KodeX101 </a>
+              <a className="text-[yellow] hover:text-[orange] hover:scale-125" href="https://drive.google.com/file/d/1gtQeJ66v-RCVbBBGcXtpKCBj_JmMV7fP/view?usp=sharing" target="_blank" rel="noreferrer"> KodeX102 </a>
+              <a className="text-[yellow] hover:text-[orange] hover:scale-125" href="https://docs.google.com/spreadsheets/d/1" target="_blank" rel="noreferrer"> KodeX103 </a>
+            </div>
+          </div>
+        </div>
 
       {/* <section className="image-section fade-in">
         <div className="glowing-image-container">
