@@ -136,10 +136,10 @@ function App() {
           <div className={`typewriter-effect ${inView ? "start" : ""}   text-[red]`} ref={typewriterRef} >
             <p  >Phase 1 Result Declared .</p>
           </div>
-          <div className="about-hover-effect">
-            <p className="animated-text text-xl pt-4">To check Click On the Below Link  On the basis of Your ProblemStatements</p>
+          <div className="about-hover-effect rounded-2xl">
+            <p className="animated-text my-8 sm:pt-4 p-8 text-2xl">To check Click On the Below Link  On the basis of Your ProblemStatements</p>
 
-            <div className="flex flex-row gap-20 justify-center items-center text-2xl my-5 pb-10">
+            <div className="flex sm:flex-row flex-col sm:gap-20 gap-10 justify-center items-center text-2xl my-5 pb-10">
               <a className="text-[yellow] hover:text-[orange] hover:scale-125" href="https://docs.google.com/spreadsheets/d/1" target="_blank" rel="noreferrer"> KodeX101 </a>
               <a className="text-[yellow] hover:text-[orange] hover:scale-125" href="https://drive.google.com/file/d/1gtQeJ66v-RCVbBBGcXtpKCBj_JmMV7fP/view?usp=sharing" target="_blank" rel="noreferrer"> KodeX102 </a>
               <a className="text-[yellow] hover:text-[orange] hover:scale-125" href="https://docs.google.com/spreadsheets/d/1" target="_blank" rel="noreferrer"> KodeX103 </a>
